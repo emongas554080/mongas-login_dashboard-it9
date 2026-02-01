@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --violet: #8F00FF;
+    --violet-dark: #7200cc;
+    --bg-light: #f6f1ff;
+}
+
+/* ===== LOGIN PAGE ===== */
+.login-body {
+    background: linear-gradient(135deg, #8F00FF, #b14cff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-box {
+    background: white;
+    width: 380px;
+    padding: 40px;
+    border-radius: 22px;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+/* ICON BOX (NO BORDER ON IMAGE) */
+.icon-box {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 20px;
+    background: var(--bg-light);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+/* LOGIN TEXT */
+.login-box h2 {
+    color: var(--violet);
+    margin-bottom: 25px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 14px;
+    background: var(--violet);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: var(--violet-dark);
+}
+
+/* ===== DASHBOARD ===== */
+.dashboard-body {
+    background: var(--bg-light);
+    min-height: 100vh;
+}
+
+.topbar {
+    background: var(--violet);
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-btn {
+    background: white;
+    color: var(--violet);
+    padding: 10px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.dashboard-content {
+    padding: 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.table-card {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+}
+
+.table-card h2 {
+    color: var(--violet);
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: var(--violet);
+    color: white;
+    padding: 14px;
+}
+
+td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+    background: #f1e6ff;
+}
