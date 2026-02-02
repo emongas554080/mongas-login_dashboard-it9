@@ -11,7 +11,7 @@
     --bg-light: #f6f1ff;
 }
 
-/* ===== LOGIN PAGE ===== */
+/* ===== LOGIN & REGISTER PAGE ===== */
 .login-body {
     background: linear-gradient(135deg, #8F00FF, #b14cff);
     min-height: 100vh;
@@ -35,7 +35,7 @@
     text-align: center;
 }
 
-/* ICON BOX (NO BORDER ON IMAGE) */
+/* ICON BOX */
 .icon-box {
     width: 90px;
     height: 90px;
@@ -53,12 +53,13 @@
     object-fit: contain;
 }
 
-/* LOGIN TEXT */
+/* TITLE */
 .login-box h2 {
     color: var(--violet);
     margin-bottom: 25px;
 }
 
+/* INPUTS */
 .login-box input {
     width: 100%;
     padding: 14px;
@@ -68,6 +69,7 @@
     outline: none;
 }
 
+/* BUTTON */
 .login-box button {
     width: 100%;
     padding: 14px;
@@ -81,6 +83,18 @@
 
 .login-box button:hover {
     background: var(--violet-dark);
+}
+
+/* SWITCH TEXT */
+.switch-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.switch-text a {
+    color: var(--violet);
+    font-weight: 600;
+    text-decoration: none;
 }
 
 /* ===== DASHBOARD ===== */
